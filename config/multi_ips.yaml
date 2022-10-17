@@ -1,0 +1,23 @@
+dwm1001:
+  ros__parameters:
+    serial_number: '000760115274'
+    device_name: 'J-Link - CDC'
+    tag_name: 'DW5D95'
+    tag_location: 'single'
+    topic_prefix: 'dwm1001/'
+
+front_dwm1001:
+  ros__parameters:
+    serial_number: '000760115660'
+    device_name: 'J-Link - CDC'
+    tag_name: 'DWD1A3'
+    tag_location: 'front'
+    topic_prefix: 'dwm1001/front/'
+
+rear_dwm1001:
+  ros__parameters:
+    serial_number: '000760115313'
+    device_name: 'J-Link - CDC'
+    tag_name: 'DW812A'
+    tag_location: 'rear'
+    topic_prefix: 'dwm1001/rear/'
