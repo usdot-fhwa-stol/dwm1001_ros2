@@ -14,7 +14,7 @@
 # License for the specific language governing permissions and limitations under
 # the License.
 
-from dwm1001_foxy import serial_tools
+from dwm1001_ros2 import serial_tools
 import time, serial, sys
 
 # import rclpy
@@ -23,7 +23,7 @@ from rclpy.node import Node
 from geometry_msgs.msg  import PoseStamped
 from geometry_msgs.msg  import TwistStamped
 
-from dwm1001_foxy.dwm1001_apiCommands import DWM1001_API_COMMANDS
+from dwm1001_ros2.dwm1001_apiCommands import DWM1001_API_COMMANDS
 
 class dwm1001_sensor():
 
