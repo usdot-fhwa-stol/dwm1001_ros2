@@ -20,7 +20,7 @@ from rclpy.node import Node
 from rclpy.duration import Duration
 
 
-from dwm1001_foxy.sensor.SensorService import dwm1001_sensor
+from dwm1001_ros2.sensor.SensorService import dwm1001_sensor
 
 class dwm1001_node(Node):
 
